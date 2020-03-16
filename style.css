@@ -3,9 +3,84 @@
     box-sizing:border-box;
 }
 
-main{
-
+main{ margin-left: 15%;
+    margin-right: 15%;
 }
-header{
 
+header{ height: 200px;
+    background-image: url(https://i.ytimg.com/vi/V5M2WZiAy6k/maxresdefault.jpg);
+    background-size: 100% 100%;
+}
+
+nav{
+    height: 40px;
+    background-color: red;
+}
+
+#menu li{
+    padding: 2% 1%;
+    display: inline-block;
+    text-align: center;
+}
+
+#menu li:hover{
+    text-decoration: underline;
+}
+
+#menu{
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.sinistra{
+    width: 30%;
+    background-color: white;
+    float: left;
+}
+
+.centro{
+    width: 45%;
+    background-color: white;
+    float: left;
+}
+
+.destra1{
+    width: 25%;
+    background-color: white;
+    float: right;
+}
+
+.destra2{
+    width: 30%;
+    background-color: white;
+    float: right;
+    clear: both;
+}
+
+.destra3{
+    width: 30%;
+    background-color: white;
+    float: right;
+    clear: both;
+}
+
+.sinistra p{
+    padding: 3%;
+}
+
+.centro p{
+    padding: 3%;
+}
+
+.destra1 p{
+    padding: 3%;
+}
+
+.destra2 p{
+    padding: 3%;
+}
+
+.destra3 p{
+    padding: 3%;
 }
